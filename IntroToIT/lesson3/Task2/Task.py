@@ -1,3 +1,4 @@
 #INTRO TO IT 2nd COURSE
-number = in(input("Введите число: "))
+number = int(input("Enter the number: "))
 print(number ** 2)
+
