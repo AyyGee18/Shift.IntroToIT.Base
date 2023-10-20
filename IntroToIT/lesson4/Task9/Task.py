@@ -1,5 +1,7 @@
 #INTRO TO IT 2nd COURSE
+# Што це?
 
-greet():
+def greet():
     print("Привет!")
+
 greet()
