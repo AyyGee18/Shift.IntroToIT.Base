@@ -2,7 +2,7 @@
 
 fruits = [
     "apple",
-    "banana"
+    "banana",
   "cherry"
 ]
 print(fruits)
