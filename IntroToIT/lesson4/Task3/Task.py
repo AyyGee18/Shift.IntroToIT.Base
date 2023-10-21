@@ -1,4 +1,4 @@
 #INTRO TO IT 2nd COURSE
-
-fruit = "apple"
+def fruit():
+    fruit = "apple"
 print(friut)
