@@ -16,10 +16,10 @@ shift = 0
 x_start, y_start = 20, 10
 
 img_file_back =     path.dirname(__file__)+ '/cave.png'
-img_file_hero =     path.dirname(__file__)+ '/m1.png'
-img_file_enemy =    path.dirname(__file__)+ '/enemy.png' 
-img_file_bomb =     path.dirname(__file__)+ '/bomb.png'
-img_file_princess = path.dirname(__file__)+ '/princess.png'
+img_file_hero =     path.dirname(__file__)+ '/Flesh.png'
+img_file_enemy =    path.dirname(__file__)+ '/Djoger.png' 
+img_file_bomb =     path.dirname(__file__)+ '/Batman.png'
+img_file_princess = path.dirname(__file__)+ '/Pengvin.png'
 FPS = 60
 
 # цвета:
@@ -195,7 +195,7 @@ while run:
             elif event.key == pygame.K_RIGHT:
                 robin.x_speed = 5 
             elif event.key == pygame.K_UP:
-                robin.jump(-7)
+                robin.jump(-10)
 
         elif event.type == pygame.KEYUP: 
             if event.key == pygame.K_LEFT:
