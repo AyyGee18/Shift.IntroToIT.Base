@@ -1,8 +1,8 @@
-#INTRO TO IT 2nd COURSE
+# INTRO TO IT 2nd COURSE
 
 fruits = [
     "apple",
-    "banana"
-  "cherry"
+    "banana",
+    "cherry"
 ]
 print(fruits)

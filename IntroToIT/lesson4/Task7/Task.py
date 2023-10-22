@@ -1,4 +1,5 @@
-#INTRO TO IT 2nd COURSE
+# INTRO TO IT 2nd COURSE
 
-from math import
+from math import sqrt
+
 print(sqrt(16))
