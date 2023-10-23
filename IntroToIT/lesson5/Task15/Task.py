@@ -9,7 +9,7 @@ def correct_count_even(lst):
 def wrong_count_even(lst):
     count = 0
     for num in lst:
-        if not num % 2:
+        if not num % 2 == 0:
             count += 1
         else:
             count -= 1

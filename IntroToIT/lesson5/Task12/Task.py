@@ -8,4 +8,4 @@ def wrong_unique_elements(lst):
             new_lst.remove(item)
         else:
             new_lst.append(item)
-    return new_lst
+    return list(set(lst))
