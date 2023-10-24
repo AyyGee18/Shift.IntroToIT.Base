@@ -5,12 +5,13 @@
 def correct_count_even(lst):
     return len([x for x in lst if x % 2 == 0])
 
-# Неправильное решение:
-def wrong_count_even(lst):
+
+def count_even_numbers(lst):
     count = 0
     for num in lst:
-        if not num % 2:
+        if num % 2 == 0:
             count += 1
-        else:
-            count -= 1
     return count
+
+a = [1, 2, 3, 4, 100]
+print(count_even_numbers(a))
