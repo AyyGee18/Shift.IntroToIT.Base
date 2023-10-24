@@ -3,7 +3,14 @@
 
 # Неправильное решение:
 def wrong_is_sorted(lst):
-    for i in range(len(lst) - 1):
-        if lst[i] > lst[i + 1]:
-            return True
-    return False
+    flag = 0
+    i = 1
+    while i < len(lst):
+        if (lst[i] < lst[i - 1]):
+            flag = 1
+        i += 1
+
+    if (not flag):
+        print(True)
+    else:
+        print(False)
