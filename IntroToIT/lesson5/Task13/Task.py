@@ -2,8 +2,15 @@
 # Задача 13: Проверить, является ли список отсортированным. 
 
 # Неправильное решение:
+
+src_lst = [2, 5, 3]
+
+
 def wrong_is_sorted(lst):
-    for i in range(len(lst) - 1):
-        if lst[i] > lst[i + 1]:
-            return True
-    return False
+    if lst == sorted(lst):
+        return True
+    else:
+        return False
+
+
+print(wrong_is_sorted(src_lst))
