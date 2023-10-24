@@ -7,3 +7,7 @@ def wrong_is_sorted(lst):
         if lst[i] > lst[i + 1]:
             return True
     return False
+
+def wrong_sorted(lst):
+    lst.sort()
+    return lst[-1]+lst[-2]
