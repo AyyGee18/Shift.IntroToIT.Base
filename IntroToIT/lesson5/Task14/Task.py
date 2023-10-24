@@ -3,6 +3,8 @@
 # Задача 14: Сумма двух наибольших элементов списка. 
 # Неправильное решение:
 def wrong_sum_of_two_largest(lst):
+    if len(lst) < 2:
+        return 0
     first_max = max(lst)
     lst.remove(first_max)
     second_max = max(lst)
