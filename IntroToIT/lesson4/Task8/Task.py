@@ -1,5 +1,5 @@
 #INTRO TO IT 2nd COURSE
 
 for i in range(5):
-    result += i
-print(result)
+    result = i + 1
+    print(result)
