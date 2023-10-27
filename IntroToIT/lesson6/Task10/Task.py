@@ -1,7 +1,7 @@
 #INTRO TO IT 2nd COURSE
 #Задача 10: Вычисление факториала
 def factorial(n):
-    if n == 0:
-        return 0
-    else:
-        return n * factorial(n-1)
+    total = 1
+    for num in range(2, n+1):
+        total *= num
+    return total
