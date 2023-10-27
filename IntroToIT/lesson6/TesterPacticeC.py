@@ -1,3 +1,6 @@
+
+
+
 import unittest
 from datetime import datetime 
 from Task9.Task import *  
@@ -16,7 +19,7 @@ class TestFunctions(unittest.TestCase):
         # Тест на вычисление факториала
         # Факториал 5 должен быть 120
         self.assertEqual(factorial(5), 120,
-                         msg="Ошибка: факториал рассчитан неверно (5! != 120)")
+                         msg=f"Ошибка: факториал рассчитан неверно (5! != 120) {factorial(5)}")
 
 # Запуск тестов
 if __name__ == '__main__':
