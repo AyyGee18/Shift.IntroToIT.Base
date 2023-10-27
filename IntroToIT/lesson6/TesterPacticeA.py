@@ -4,17 +4,17 @@ from Task1.Task import add_numbers
 from Task2.Task import days_until_birthday
 from Task3.Task import calculate_salary
 from Task4.Task import mortgage_payment
-from Task5.Task import iphone_credit_cost 
+from Task5.Task import iphone_credit_cost
 
-class TestSumFunction(unittest.TestCase):   
+class TestSumFunction(unittest.TestCase):
 
     def test_add_numbers(self):
         result = add_numbers(3, 4)
         self.assertEqual(result, 7, msg=f"Тест 'add_numbers' не пройден. Результат = {result}")
-        
+
     def test_days_until_birthday(self):
         result = days_until_birthday(datetime(2024, 12, 31))
-        self.assertEqual(result, 95, msg=f"Тест 'days_until_birthday' не пройден. Результат = {result}")
+        self.assertEqual(result, 65, msg=f"Тест 'days_until_birthday' не пройден. Результат = {result}")
 
     def test_calculate_salary(self):
         result = calculate_salary(10, 40)
