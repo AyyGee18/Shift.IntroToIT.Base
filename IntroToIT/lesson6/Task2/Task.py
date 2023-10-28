@@ -5,9 +5,8 @@ from datetime import datetime
 
 def days_until_birthday(birZday):
     today = datetime.today()
-    next_birthday = datetime(today.year, birthday.month, birthday.day)
+    next_birthday = datetime(today.year, today.month, today.day)
     if today > next_birthday:
-        next_birthday = datetime(today.year, birthday.month, birthday.day)
+        next_birthday = datetime(today.year, today.month, today.day)
     return (next_birthday - today).days + 1
 
- 
