@@ -1,4 +1,6 @@
 #INTRO TO IT 2nd COURSE
 # Задача 9: Переворот строки
 def reverse_string(s):
-    return s.sort(reverse=True)
+    s2 = sorted(s, reverse=True)
+    new = ''.join(s2)
+    return new

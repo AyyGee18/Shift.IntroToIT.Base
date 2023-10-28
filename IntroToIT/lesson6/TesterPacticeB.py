@@ -10,7 +10,7 @@ class TestFunctions(unittest.TestCase):
         # Тест на проверку конвертации температуры
         # 32F -> 0C
         self.assertEqual(fahrenheit_to_celsius(32), 0, 
-                         msg="Ошибка: конвертация температуры не верна (32F != 0C)")
+                         msg="Ошибка: конвертация температуры неверна (32F != 0C)")
 
     def test_heron_triangle_area(self):
         # Тест на площадь треугольника по формуле Герона
