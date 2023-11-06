@@ -4,7 +4,8 @@
 x = 10
 y = 20
 
+t = x
 x = y
-y = x
+y = t
 
 print(x, y)
