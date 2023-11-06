@@ -1,19 +1,24 @@
 #INTRO TO IT 2nd COURSE
+
+# Эта функция вычисляет сумму чисел a и b
 def add_numbers(a, b):
 
     result = a + b
     return result
 
+# Эта функция вычисляет произведение чисел a и b
 def multiply_numbers(a, b):
 
     result = a * b
     return result
 
+# Эта функция находит максимально число в списке
 def find_max_number(numbers):
 
     max_number = max(numbers)
     return max_number
 
+# TODO: реализовать проверку на то, что число не отрицательно. При отрицательном числе выдает неверный результат
 def calculate_factorial(n):
  
     if n == 0:
@@ -23,6 +28,7 @@ def calculate_factorial(n):
         factorial *= i
     return factorial
 
+#Стоит реализовать вывод сообщения здесь скорее
 def is_even(number):
 
     if number % 2 == 0:
@@ -30,19 +36,25 @@ def is_even(number):
     else:
         return False
 
+#Используемые переменные
 num1 = 10
 num2 = 5
+numbers_list = [3, 8, 1, 6, 12]
+
+#Подсчет перменных
 sum_result = add_numbers(num1, num2)
 product_result = multiply_numbers(num1, num2)
-numbers_list = [3, 8, 1, 6, 12]
 max_num = find_max_number(numbers_list)
 factorial_result = calculate_factorial(5)
 is_even_num = is_even(7)
 
+# Вызов функций
 print(f"Сумма чисел {num1} и {num2} равна {sum_result}")
 print(f"Произведение чисел {num1} и {num2} равно {product_result}")
 print(f"Наибольшее число в списке {numbers_list} - {max_num}")
 print(f"Факториал числа 5 равен {factorial_result}")
+
+#TODO: этот код выдаст неверный ответ, если в функции заменить число. Он адаптирован тоолько под число 7, что непрактично
 if is_even_num:
     print("Число 7 - четное.")
 else:
