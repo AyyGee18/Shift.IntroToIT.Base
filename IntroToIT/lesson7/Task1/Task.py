@@ -1,21 +1,39 @@
 #INTRO TO IT 2nd COURSE
 def add_numbers(a, b):
-
+    """
+    Функция для сложения двух числе.
+    :param a: Первое число.
+    :param b: Второе число.
+    :return: Сумма чисел.
+    """
     result = a + b
     return result
 
 def multiply_numbers(a, b):
-
+    """
+    Функция для перемножения двух числе.
+    :param a: Первое число.
+    :param b: Второе число.
+    :return: Перемноженные 2 числа.
+    """
     result = a * b
     return result
 
 def find_max_number(numbers):
-
+    """
+    Функция для нахождения максимального числа из списка.
+    :param numbers: Список, в котором мы ищем максимальное число.
+    :return: Максимальное число списка.
+    """
     max_number = max(numbers)
     return max_number
 
 def calculate_factorial(n):
- 
+    """
+    Функция для нахождения факториала числа.
+    :param n: Число, которого факториал мы ищем.
+    :return: Факториал заданного числа.
+    """
     if n == 0:
         return 1
     factorial = 1
@@ -24,7 +42,11 @@ def calculate_factorial(n):
     return factorial
 
 def is_even(number):
-
+    """
+    Функция для проверки чпетности числа.
+    :param number: Число для проверки.
+    :return: Истенна ли проверка.
+    """
     if number % 2 == 0:
         return True
     else:
