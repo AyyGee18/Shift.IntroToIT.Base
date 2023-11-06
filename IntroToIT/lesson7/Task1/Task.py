@@ -1,21 +1,29 @@
 #INTRO TO IT 2nd COURSE
 def add_numbers(a, b):
-
+    '''
+    Функция для сложения двух чисел
+    '''
     result = a + b
     return result
 
 def multiply_numbers(a, b):
-
+    '''
+    Функция для умножения двух чисел
+    '''
     result = a * b
     return result
 
 def find_max_number(numbers):
-
+    '''
+    Функция для поиска максимального значения
+    '''
     max_number = max(numbers)
     return max_number
 
 def calculate_factorial(n):
- 
+    '''
+    Функция для поиска факториала
+    '''
     if n == 0:
         return 1
     factorial = 1
@@ -24,7 +32,9 @@ def calculate_factorial(n):
     return factorial
 
 def is_even(number):
-
+    '''
+    Функция для поиска чётного числла
+    '''
     if number % 2 == 0:
         return True
     else:
