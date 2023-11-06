@@ -1,26 +1,31 @@
 #INTRO TO IT 2nd COURSE
-#Отредактировать код так, что бы он соответствовал кодстайлу
+##Отредактировать код так, что бы он соответствовал кодстайлу
 
 # Функция для вычисления суммы двух чисел
-def ppp(a, b):
-return a + b
+def add_num(a, b):
+    return a + b
+
 # Функция для вычисления разности двух чисел
-def zzz(a, b):
-return a - b
+def subtract_num(a, b):
+    return a - b
+
 # Функция для вычисления произведения двух чисел
-def nnn(a, b):
-return a * b
+def multiply_num(a, b):
+    return a * b
+
 # Функция для вычисления частного двух чисел
-def qqq(a, b):
-if b != 0:
-return a / b
-else:
-return "Деление на ноль невозможно"
+def divide_num(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Деление на ноль невозможно"
+    
 # Ввод двух чисел от пользователя
 num1 = float(input("Введите первое число: "))
 num2 = float(input("Введите второе число: "))
+
 # Выполняем операции с числами и выводим результаты
-print(f"{num1} + {num2} = {add(num1, num2)}")
-print(f"{num1} - {num2} = {subtract(num1, num2)}")
-print(f"{num1} * {num2} = {multiply(num1, num2)}")
-print(f"{num1} / {num2} = {divide(num1, num2)}")
+print(f"{num1} + {num2} = {add_num(num1, num2)}")
+print(f"{num1} - {num2} = {subtract_num(num1, num2)}")
+print(f"{num1} * {num2} = {multiply_num(num1, num2)}")
+print(f"{num1} / {num2} = {divide_num(num1, num2)}")
