@@ -1,11 +1,11 @@
-- Generating pictures including Gen algoruthms
+# Generating pictures including Gen algoruthms
 
-- Short documentation 
+## Short documentation 
     - It uses random to generate 3 functions from list of base functions like sin or cos
     and then use it to 3 parametres of pixels(RGB) and then print the first image 64*64
     - after that user choose the best picture and the program improves others and this can go on until user find the best pic
 
-- you need to install libs
+## you need to install libs
     - math
     - operator
     - random
@@ -13,7 +13,7 @@
     - cv2_rgb
     - numpy 
 
-- creating the funcs
+## creating the funcs
 ```python
 def random_function_string(node, depth):
     if depth == 0:
@@ -67,9 +67,9 @@ def random_function_string(node, depth):
         elif "mul" in str(node):
             return f"({left_child} * {right_child})"
 ```
-- Autors
+## Autors
     - Venimu(me)
 
-- No License
+## No License
 
-- my number 89192707778 (if you want a project you need money)
+## my number 89192707778 (if you want a project you need money)

@@ -1,22 +1,36 @@
 #INTRO TO IT 2nd COURSE
 # sum of two numbers
 def add_numbers(a, b):
-
+    '''
+    param a: first num
+    param b: second num
+    return: sum of nums
+    '''
     result = a + b
     return result
 # multiplication of numbers
 def multiply_numbers(a, b):
-
+    '''
+    param a: first num
+    param b: second num
+    return: multiplication of nums
+    '''
     result = a * b
     return result
 # max in arr
 def find_max_number(numbers):
-
+    '''
+    param numbers: arr of nums
+    return: max in arr
+    '''
     max_number = max(numbers)
     return max_number
 # factorial of number
 def calculate_factorial(n):
- 
+    '''
+    param n: num
+    return: factorial
+    '''
     if n == 0:
         return 1
     factorial = 1
@@ -25,7 +39,10 @@ def calculate_factorial(n):
     return factorial
 # check of eventity
 def is_even(number):
-
+    '''
+    param number: num
+    return: is_even
+    '''
     if number % 2 == 0:
         return True
     else:
@@ -33,6 +50,7 @@ def is_even(number):
 
 # some nums
 num1 = 10
+
 num2 = 5
 #func calls
 sum_result = add_numbers(num1, num2)
