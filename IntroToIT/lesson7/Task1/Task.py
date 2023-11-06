@@ -1,21 +1,21 @@
 #INTRO TO IT 2nd COURSE
+# Функция для сложения двух чисел
 def add_numbers(a, b):
-
     result = a + b
     return result
 
+# Функция для умножения двух чисел
 def multiply_numbers(a, b):
-
     result = a * b
     return result
 
+# Функция для поиска максимального числа в списке
 def find_max_number(numbers):
-
     max_number = max(numbers)
     return max_number
 
+# Функция для вычисления факториала числа
 def calculate_factorial(n):
- 
     if n == 0:
         return 1
     factorial = 1
@@ -23,13 +23,14 @@ def calculate_factorial(n):
         factorial *= i
     return factorial
 
+# Функция для определения, является ли число четным
 def is_even(number):
-
     if number % 2 == 0:
         return True
     else:
         return False
 
+# Заданные числа и вызовы функций
 num1 = 10
 num2 = 5
 sum_result = add_numbers(num1, num2)
@@ -39,6 +40,7 @@ max_num = find_max_number(numbers_list)
 factorial_result = calculate_factorial(5)
 is_even_num = is_even(7)
 
+# Вывод результатов
 print(f"Сумма чисел {num1} и {num2} равна {sum_result}")
 print(f"Произведение чисел {num1} и {num2} равно {product_result}")
 print(f"Наибольшее число в списке {numbers_list} - {max_num}")
