@@ -1,30 +1,51 @@
 #INTRO TO IT 2nd COURSE
+# Сложение полученных чисел
 def add_numbers(a, b):
-
+    '''
+    a - первое слагаемое
+    b - второе слагаемое
+    result - сумма a и b
+    '''
     result = a + b
     return result
-
+# Произведение двух чисел
 def multiply_numbers(a, b):
-
+    '''
+    a - первый множитель
+    b - второй множитель
+    result - произведение a и b
+    '''
     result = a * b
     return result
-
+# Нахождение большего числа
 def find_max_number(numbers):
-
+    '''
+    numbers - список чисел
+    max() - функция для нахождения большего числа из списка
+    max_number - число полученное после функции max()
+    '''
     max_number = max(numbers)
     return max_number
-
+# Факториал числа
 def calculate_factorial(n):
- 
+    '''
+    n - полученное число
+    factorial -переменная, которая будет держать значение факториала 'n'.(Изночально в данной переменной записано значение 1)
+    Если n = 0, то фозвращается еденица, но если нет, то тогда в цикле for перебирается range от 1 до n + 1 и перемножаются с factorial.
+    После этого функция возвращает знечение factorial.
+    '''
     if n == 0:
         return 1
     factorial = 1
     for i in range(1, n + 1):
         factorial *= i
     return factorial
-
+# Чётно или нечётное
 def is_even(number):
-
+    '''
+    number - полученный аргумент
+    Если number делится на два без остатка, то тогда это чётное число, но если оно делится с остатком, то это не чётное число.
+    '''
     if number % 2 == 0:
         return True
     else:
