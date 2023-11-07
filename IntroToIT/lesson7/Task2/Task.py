@@ -2,20 +2,25 @@
 #Отредактировать код так, что бы он соответствовал кодстайлу
 
 # Функция для вычисления суммы двух чисел
-def ppp(a, b):
-return a + b
+def add(num1, num2):
+    return num1 + num2
+
+
 # Функция для вычисления разности двух чисел
-def zzz(a, b):
-return a - b
+def subtract(num1, num2):
+    return num1 - num2
+
 # Функция для вычисления произведения двух чисел
-def nnn(a, b):
-return a * b
+def multiply(num1, num2):
+    return num1 * num2
+
 # Функция для вычисления частного двух чисел
-def qqq(a, b):
-if b != 0:
-return a / b
-else:
-return "Деление на ноль невозможно"
+def divide(num1, num2):
+    if num2 != 0:
+        return num1 / num2
+    else:
+        return "Деление на ноль невозможно"
+    
 # Ввод двух чисел от пользователя
 num1 = float(input("Введите первое число: "))
 num2 = float(input("Введите второе число: "))
