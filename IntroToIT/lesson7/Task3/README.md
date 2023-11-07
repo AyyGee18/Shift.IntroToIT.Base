@@ -6,9 +6,8 @@
 
 ---
 
-![Позитивная оценка](https://drive.google.com/file/d/1s2O4_gUYPur4C_fhHaq4a0EyAXqqp_z5/view?usp=drive_link)
-
-![Негативная оценка](https://drive.google.com/file/d/1iX2Og2YaLbl7b31CZSSUq6ybiWEfra4V/view?usp=drive_link)
+![Позитивная оценка](demo_image_1.png)
+![Негативная оценка](demo_image_2.png)
 
 ---
 
