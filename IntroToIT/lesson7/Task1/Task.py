@@ -1,19 +1,24 @@
 #INTRO TO IT 2nd COURSE
+
+#функция, которая суммирует два числа
 def add_numbers(a, b):
 
     result = a + b
     return result
 
+#Функция, которая умножает два числа
 def multiply_numbers(a, b):
 
     result = a * b
     return result
 
+#функция, которая находит максималное число
 def find_max_number(numbers):
 
     max_number = max(numbers)
     return max_number
 
+#функция, которая расчитывает факториал числа
 def calculate_factorial(n):
  
     if n == 0:
@@ -23,6 +28,7 @@ def calculate_factorial(n):
         factorial *= i
     return factorial
 
+#Функция, которая проверяет, является число четным или нет
 def is_even(number):
 
     if number % 2 == 0:
@@ -30,6 +36,8 @@ def is_even(number):
     else:
         return False
 
+
+# Задаем числа для функций
 num1 = 10
 num2 = 5
 sum_result = add_numbers(num1, num2)
@@ -39,6 +47,7 @@ max_num = find_max_number(numbers_list)
 factorial_result = calculate_factorial(5)
 is_even_num = is_even(7)
 
+# Выполняем операции с числами и выводим результаты
 print(f"Сумма чисел {num1} и {num2} равна {sum_result}")
 print(f"Произведение чисел {num1} и {num2} равно {product_result}")
 print(f"Наибольшее число в списке {numbers_list} - {max_num}")
