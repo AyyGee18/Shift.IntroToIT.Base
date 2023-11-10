@@ -1,7 +1,15 @@
 #INTRO TO IT 2nd COURSE
 # Задача: вычислить факториал числа
+
 def factorial(n):
-    result = 1
-    for i in range(2, n + 1):  # начальное значение интервала неправильное
-        result *= i
-    return result
+    if n < 0:
+        return "Отрицательное число!"
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
+
+#Работает 
+

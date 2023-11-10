@@ -3,5 +3,7 @@
 def sum_list(lst):
     total = 0
     for num in lst:
-        pass  # здесь должно быть сложение
+        total += num
     return total
+
+#Продам гараж 8(800)398-06-07
