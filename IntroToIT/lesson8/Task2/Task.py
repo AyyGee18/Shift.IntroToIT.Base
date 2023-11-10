@@ -5,6 +5,6 @@ def find_min(lst):
         return None
     min_num = lst[0]
     for num in lst[1:]:
-        if num > min_num:  # здесь условие должно быть на поиск минимума
-            min_num = num
+        if num < min_num:  
+            min_num = num #если текущий элемент меньше min_num, обновляем минимальный элемент
     return min_num

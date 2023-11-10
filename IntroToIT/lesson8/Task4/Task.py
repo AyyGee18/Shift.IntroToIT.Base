@@ -3,7 +3,7 @@
 def is_prime(num):
     if num <= 1:
         return False
-    for i in range(2, num):  # верхняя граница в цикле не правильная
+    for i in range(2, int(num ** 0.5) + 1):  # изменена верхняя граница в цикле: целая часть корня квадратного
         if num % i == 0:
             return False
     return True
