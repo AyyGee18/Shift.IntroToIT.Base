@@ -1,4 +1,4 @@
-#INTRO TO IT 2nd COURSE
+# INTRO TO IT 2nd COURSE
 # Задача: проверить, является ли число простым
 def is_prime(num):
     if num <= 1:
@@ -7,3 +7,6 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
+
+
+print(is_prime(int(input())))
