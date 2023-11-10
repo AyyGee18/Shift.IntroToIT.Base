@@ -5,3 +5,5 @@ def factorial(n):
     for i in range(2, n + 1):  # начальное значение интервала неправильное
         result *= i
     return result
+
+print(factorial(int(input())))
