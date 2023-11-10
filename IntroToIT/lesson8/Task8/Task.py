@@ -3,4 +3,6 @@
 def print_numbers_skip_divisible(n, m):
     for i in range(1, n+1):
         if i % m == 0:
-            print(i)  # неправильное размещение print
+            continue
+        print(i)
+print(print_numbers_skip_divisible(10, 3))
