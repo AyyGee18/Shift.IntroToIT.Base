@@ -1,9 +1,16 @@
 #INTRO TO IT 2nd COURSE
 # Задача: найти второе наибольшее число в списке
 def second_largest(numbers):
-    first = second = float('-inf')
-    for n in numbers:
-        first = n  # Ошибка в логике определения первого и второго наибольшего
-    return second if second != float('-inf') else None
+    # Предлагаю следующий способ
 
-print(second_largest([10, 4, 9, 4, 9, 10, 4]))  # Должно вывести 9
+    if len(numbers) >= 2:
+        # Первое наибольшее число
+        first = max(numbers)
+        # Выкидываем из списка первое наибольшее число
+        filtered_numbers = list(filter(lambda x: x != first, numbers))
+        # Если список состоял из разных чисел
+        if filtered_numbers:
+            # Второе наибольшее число
+            second = max(filtered_numbers)
+            return second
+    return None
