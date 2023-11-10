@@ -1,7 +1,11 @@
 #INTRO TO IT 2nd COURSE
 # Задача: вычислить факториал числа
 def factorial(n):
-    result = 1
-    for i in range(2, n + 1):  # начальное значение интервала неправильное
-        result *= i
-    return result
+    '''
+    Функция для вычисления факториала числа.
+    :param n: Число
+    :return: Факториал числа
+    '''
+    if n == 1:
+        return 1
+    return n * factorial(n-1) # Использование рекурсии для нахождения факториала
