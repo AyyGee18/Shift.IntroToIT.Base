@@ -1,4 +1,4 @@
 #INTRO TO IT 2nd COURSE
 
-from math import
-print(sqrt(16))
+from math import 
+print((16))

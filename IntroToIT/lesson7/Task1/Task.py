@@ -1,11 +1,11 @@
 #INTRO TO IT 2nd COURSE
 def add_numbers(a, b):
-
+    # Функция сложения.
     result = a + b
     return result
 
 def multiply_numbers(a, b):
-
+# Функция умножения.
     result = a * b
     return result
 
