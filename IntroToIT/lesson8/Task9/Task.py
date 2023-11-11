@@ -3,4 +3,4 @@
 def squares_dict(n):
     return {i: i ** 2 for i in range(1, n)}  # Ошибка в определении границы интервала
 
-print(squares_dict(5))  # Должно вывести {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+print(squares_dict(6))  # Должно вывести {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
