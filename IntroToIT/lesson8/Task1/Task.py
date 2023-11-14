@@ -3,5 +3,5 @@
 def sum_list(lst):
     total = 0
     for num in lst:
-        pass  # здесь должно быть сложение
+        total+=1  # здесь должно быть сложение
     return total
